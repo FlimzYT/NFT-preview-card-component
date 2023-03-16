@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+*{
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    height: 38rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 1rem;
+    justify-content: space-around;
+    box-shadow: 0 0 4rem rgba(3, 5, 22, 0.404);
+}
+.card .photo{
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.card .info h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card .info p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.card .info .stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .info .price, .card .info .date{
+    align-items: center;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.card .info .price span{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.card .info .date span{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    width: 100%;
+    border-color: hsl(215, 32%, 27%);
+    margin: 1.2rem 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 10%;
+}
+.footer p{
+    margin: 0;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.footer span{
+    font-weight: 300;
+}
+.footer img{
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
